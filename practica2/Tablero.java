@@ -1,6 +1,5 @@
 package practica2;
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Random;
@@ -13,7 +12,7 @@ public class Tablero {
     private int[][] estadoSiguiente=new int [TAMAÑO][TAMAÑO];
 
     public void leerEstadoActual() {
-        try(BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Guille\\Documents\\GitHub\\1-PruebaEvaluacion-TecnicasProgramacion-\\practica2\\matriz"))) {
+        try(BufferedReader br = new BufferedReader(new FileReader("practica2/matriz"))) {
             String linea;
             int fila = 0;
             while ((linea = br.readLine()) != null && fila < TAMAÑO) {
