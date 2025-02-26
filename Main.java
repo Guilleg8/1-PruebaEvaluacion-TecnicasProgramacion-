@@ -1,5 +1,6 @@
 import mates.Matematicas;
 import practica2.Tablero;
+import practica3.Graph;
 
 import java.util.concurrent.TimeUnit;
 import java.lang.InterruptedException;
@@ -9,7 +10,7 @@ public class Main {
         System.out.println("El número PI es " + Matematicas.
                 generarNumeroPi(200000));
 
-         */
+
         try {
             Tablero tablero = new Tablero();
             System.out.println("Simulacio tablero leido:");
@@ -33,5 +34,8 @@ public class Main {
         }catch (InterruptedException e){
             System.out.println(e);
         }
+        */
+        Graph graph = new Graph();
+        graph.onePathFindsAPath();
     }
 }
