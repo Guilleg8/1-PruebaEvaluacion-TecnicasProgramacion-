@@ -4,7 +4,7 @@ Repositorio de la primera prueba de evaluacion continua para Tecnicas de Program
 Enlace al repositorio:
 https://github.com/Guilleg8/1-PruebaEvaluacion-TecnicasProgramacion-/tree/main
 
-En el Main se comprueban todos las clases creadas en las distintas practicas. Cada Practica tiene su paquete correspondiente con las clases y archivos que cada una necesita para su correcto funcionamiento.
+En el Main se comprueban todos las clases creadas en las distintas practicas a traves de una clase menu intermedia que muestra las opciones de probar las tres practicas. Cada Practica tiene su paquete correspondiente con las clases y archivos que cada una necesita para su correcto funcionamiento. Ademas hay una carpeta uml con los uml individuales de cada practica y un uml completo de todo el programa en conjunto.
 
 Analisis de Complejidad de cada metodo:
 
