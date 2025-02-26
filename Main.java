@@ -1,16 +1,17 @@
-import mates.Matematicas;
+import practica1.Matematicas;
 import practica2.Tablero;
 import practica3.Graph;
 
 import java.util.concurrent.TimeUnit;
-import java.lang.InterruptedException;
+
 public class Main {
     public static void main(String[] args) {
-        /*
+
+        //Comprobaciones practica1
         System.out.println("El número PI es " + Matematicas.
                 generarNumeroPi(200000));
 
-
+        //Comprobaciones practica2
         try {
             Tablero tablero = new Tablero();
             System.out.println("Simulacio tablero leido:");
@@ -34,7 +35,8 @@ public class Main {
         }catch (InterruptedException e){
             System.out.println(e);
         }
-        */
+
+        //Comprobaciones practica3
         Graph graph = new Graph();
         graph.onePathFindsAPath();
     }

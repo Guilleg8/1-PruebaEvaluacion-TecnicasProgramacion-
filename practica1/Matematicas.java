@@ -1,4 +1,4 @@
-package mates;
+package practica1;
 import java.util.Random;
 
 public class Matematicas {
