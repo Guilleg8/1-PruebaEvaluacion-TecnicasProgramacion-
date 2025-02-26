@@ -16,15 +16,15 @@ Analisis de Complejidad de cada metodo:
 
 - Practica 2 (Clase Tablero):
   
-    leerEstadoActual() -> Este metodo tiene una complejidad O(1) puesto que el bucle se ejecuta TAMAÑO veces, al ser esta una cantidad fija la complejidad no se incrementa manteniendose en O(1), ya que el resto de operaciones tambien son de complejidad O(1).
+    leerEstadoActual() -> Este metodo tiene una complejidad O(n^2) puesto que el bucle se ejecuta TAMAÑO x TAMAÑO veces,ya que hay que recorrer la matriz completa, lo que hace que la complejidad ascienda a O(n^2).
 
-    generarEstadoActual() -> Este metodo al igual que el anterior es de complejidad O(1) ya que TAMAÑO es un valor fijo.
+    generarEstadoActual() -> Este metodo al igual que el anterior es de complejidad O(n^2) ya que tiene bucles anidados.
   
-    leerEstadoSiguietne() -> Este metodo al igual que los dos anteriores es de complejidad O(1) ya que TAMAÑO es un valor fijo.
+    leerEstadoSiguietne() -> Este metodo al igual que los dos anteriores es de complejidad O(n^2) ya que también se recorre la matriz.
   
     contarVecinosVivos(int f,int c) -> Este metodo también sería de complejidad O(1) ya que siempre va a revisar la misma cantidad de celdas de la matriz, sin depender de ninguna variable.
   
-    toString -> Este metodo es de complejidad O(1) dado que depende de TAMAÑO que no varia.
+    toString -> Este metodo es de complejidad O(n^2) dado que al querer mostrar la matriz hay que recorrerla.
 
 
 - Practica 3 (Clase Graph):
@@ -40,3 +40,19 @@ Analisis de Complejidad de cada metodo:
     toString -> Este caso es un tanto distinto ya que al querer recorrer todo el grafo para mostrarlo la complejidad depende del número de vértices y de abyacentes de cada uno de ellos por lo que ascenderia a una complejidad O(N+M).
   
     onePath(V v1, V v2) -> Al igual que en el anterior en este metodo se recorre el grafo completo por lo que la complejidad queda sujeta al número de vértices y de sus abyacentes, por lo que su complejidad tmabién seria O(N+M).
+
+Requisitos Previos:
+
+Java 17 o superior.
+
+Entero de desarrollo IntelliJ IDEA o Eclipse.
+
+Tener GIT instalado para poder clonar mi repositorio
+
+Ejecutar el Proyecto:
+
+Clonar el repositorio (Terminal): "git clone ["(https://github.com/Guilleg8/1-PruebaEvaluacion-TecnicasProgramacion-/tree/main)"]
+
+Abrir el proyecto en un IDE.
+
+Compilar y ejecutar el main.
