@@ -8,9 +8,11 @@ En el Main se comprueban todos las clases creadas en las distintas practicas. Ca
 
 Analisis de Complejidad de cada metodo:
 
+
 - Practica 1 (Clase Matematicas):
   
     generarNumeroPi(int puntosTotales) -> Este metodo tiene una complejidad O(n) dado que el bucle for se ejecuta tantas veces como puntosTotales lo que le otorga una complejidad O(n). El resto de operaciones son O(1).
+
 
 - Practica 2 (Clase Tablero):
   
@@ -23,6 +25,7 @@ Analisis de Complejidad de cada metodo:
     contarVecinosVivos(int f,int c) -> Este metodo también sería de complejidad O(1) ya que siempre va a revisar la misma cantidad de celdas de la matriz, sin depender de ninguna variable.
   
     toString -> Este metodo es de complejidad O(1) dado que depende de TAMAÑO que no varia.
+
 
 - Practica 3 (Clase Graph):
   
